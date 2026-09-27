@@ -40,8 +40,7 @@ for subject in subjects:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+One mistake I want to avoid is forgetting that list indexes start at 0.
 
 
 ============================================
