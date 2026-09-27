@@ -1,7 +1,7 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: John David Mendoza
+Date: September 27, 2026
 
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
@@ -30,7 +30,22 @@ Paste the code you already wrote for this activity below.
 import os
 import shutil
 
-# --- paste your existing code here ---
+folder = "my_files"
+
+for file in os.listdir(folder):
+    if file.endswith(".jpg") or file.endswith(".png"):
+        shutil.move(
+            os.path.join(folder, file),
+            os.path.join(folder, "Images", file)
+        )
+
+    elif file.endswith(".pdf") or file.endswith(".docx"):
+        shutil.move(
+            os.path.join(folder, file),
+            os.path.join(folder, "Documents", file)
+        )
+
+print("Files organized.")
 
 
 """
