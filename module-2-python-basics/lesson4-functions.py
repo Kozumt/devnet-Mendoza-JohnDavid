@@ -7,7 +7,8 @@ Date: September 27, 2026
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+A function is a block of code that performs a task. We can create a function, 
+using it whenever we need it instead of writing same code again. Function can also take data and return a result.
 
 
 ============================================
