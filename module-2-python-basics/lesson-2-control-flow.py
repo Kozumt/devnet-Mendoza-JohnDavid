@@ -1,7 +1,7 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: John David Mendoza
+Date: September 27, 2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
