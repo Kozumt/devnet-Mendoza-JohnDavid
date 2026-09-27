@@ -16,12 +16,11 @@ These are useful when I need to work with items without writing same code again 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
-(add more as needed)
+- list: Collection of multiple items stored together.
+- for loop: A loop that repeats for each item in a list.
+- while loop:  A loop that repeats while a condition is true.
+- index: The postion of an item in a list.
+- iteration: One repetition of a loop
 
 
 ============================================
