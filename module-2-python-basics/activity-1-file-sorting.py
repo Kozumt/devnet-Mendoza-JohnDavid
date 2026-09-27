@@ -14,11 +14,11 @@ sort the files? e.g. by extension, by name, by date, etc.]
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
-(add more as needed)
+- os module: Os module helps me to work with files and folders.
+- shutil module: Shutil module helps me to move and manage files.
+- file path: File path is the location of a file or folder.
+- directory: Directory is another name for a folder.
+- file extension: Is the part, at the end of file name that shows its type
 
 
 ============================================
