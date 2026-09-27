@@ -45,7 +45,7 @@ for file in os.listdir(folder):
             os.path.join(folder, "Documents", file)
         )
 
-print("Files organized.")
+print("Files organized")
 
 
 """
