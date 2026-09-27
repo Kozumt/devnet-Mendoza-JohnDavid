@@ -13,13 +13,13 @@ A variable which acts like a container that holds information, such, as a name, 
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
-- data type:
-- int:
-- float:
-- string:
-- boolean:
-(add more as needed)
+- variable: I see a variable as a named place called variable that stores information in a program.
+- data type: Data type tells Python what kind of value a variable holds.
+- int: Int is a number, such as '10', '55'
+- float: Float is a number that has a decimal, such as '3.14' or '10.5'.
+- string: While String is text or characters written inside quotation marks, such, as "John".
+- boolean: Boolean is a value that can only be `True` or `False`.
+- for: A loop statement used to repeat a block of code for each item in sequence as long as it's true.
 
 
 ============================================
