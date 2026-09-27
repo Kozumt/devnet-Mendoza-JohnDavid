@@ -14,11 +14,11 @@ using it whenever we need it instead of writing same code again. Function can al
 ============================================
 KEY VOCABULARY
 ============================================
-- def:
-- return:
-- function:
-- parameter:
-- argument:
+- def: Used to create a funchtion.
+- return: Sends a result back from a function.
+- function: A block of code made to perform a specific task.
+- parameter: A variable inside a function that receives a value.
+- argument: The actual value given to the function.
 
 
 ============================================
@@ -28,8 +28,11 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+def greet(name):
+    return "Hello, " + name + "!"
 
+message = greet("John")
+print(message)
 
 """
 ============================================
