@@ -30,7 +30,21 @@ Paste the code you already wrote for this activity below.
 import os
 import shutil
 
-# --- paste your existing code here ---
+folder = "my_files"
+
+for file in os.listdir(folder):
+    if file.endswith(".jpg") or file.endswith(".png"):
+        shutil.move(
+            os.path.join(folder, file),
+            os.path.join(folder, "Images", file)
+        )
+        elif file.endswith(".pdf") or file.endswith(".docx"):
+        shutil.move(
+            os.path.join(folder, file),
+            os.path.join(folder, "Documents", file)
+        )
+
+print("File Organized")
 
 
 """
