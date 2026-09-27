@@ -29,7 +29,15 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+name = "John David Mendoza"
+age = 20
+weight = 62.67
+student = True
+
+print("Name: ", name)
+print("Age: ", age)
+print("Weight: ", weight)
+print("Student: ", student)
 
 
 """
