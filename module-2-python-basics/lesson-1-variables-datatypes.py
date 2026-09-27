@@ -44,8 +44,7 @@ print("Student: ", student)
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+One mistake I want to avoid is confusing strings with numbers because it is a trap. For example '20' is a string because it is, inside quotation marks while 20 is an integer. I learned that using the data type can cause errors when performing calculations.
 
 
 ============================================
