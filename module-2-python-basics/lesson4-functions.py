@@ -38,8 +38,7 @@ print(message)
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+The mistake I want to avoid is forgetting to call the function after I create.
 
 
 ============================================
