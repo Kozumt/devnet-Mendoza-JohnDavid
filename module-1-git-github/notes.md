@@ -1,13 +1,13 @@
 # Module 1 — Git & GitHub
 
-**Student:** [your name]
-**Date:** [date]
+**Student:** John David Mendoza
+**Date:** September 27,2026
 
 ---
 
 ## What is Git? What is GitHub? (explain like you're teaching a friend who's never used either)
 
-[Write your own explanation here. What problem does Git actually solve? How is GitHub different from Git itself?]
+Git is a tool that tracks changes in your code and provides commands. GitHub, on the hand is an online platform where you can store, share and collaborate on Git projects.
 
 ---
 
