@@ -29,17 +29,23 @@ Git is a tool that tracks changes in your code and provides commands. GitHub, on
 
 ## Walking through what I did
 
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+First I created a branch called `notes`. Then I opened the file `nites.md` inside the folder `module-1-git-github` made the edits I needed and ran `git status` to see what had changed. I committed the changes using the message `git commit -m "Key Vocab"`. Next I pushed the branch to GitHub with `git push -u origin notes`. Finally on GitHub I created a Pull Request, from the `functions` branch to the `main` branch so the changes could be reviewed before merging.
+
 
 ```
 # paste your actual commands here
+git branch notes
+git switch notes
+git add .
+git commit -m "Key Vocab
+git push -u origin notes
 ```
 
 ---
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+The mistake I made is by pushing to the main branch affecting the original one. That's what I want to avoid too.
 
 ---
 
