@@ -6,9 +6,9 @@ Date: September 27, 2026
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
 ============================================
-[Paste your working script below first, then come back and explain
-it here: what does your script do, and what rule did you use to
-sort the files? e.g. by extension, by name, by date, etc.]
+I build a Python program that organizes files into folders.
+The Python program checks the file extension and moves JPG and PNG files into the Images folder. The Python program also moves PDF and DOCX files into the Documents folder.
+
 
 
 ============================================
