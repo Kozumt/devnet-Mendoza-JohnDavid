@@ -30,7 +30,10 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+subjects = ["Python", "DevNet", "WebDev"]
+
+for subject in subjects:
+    print("I am studying", subject)
 
 
 """
