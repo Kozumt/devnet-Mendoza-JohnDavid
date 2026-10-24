@@ -1,5 +1,12 @@
+import random
 import requests
 
-x = requests.get('https://pokeapi.co/api/v2/pokemon/ditto')
+Pokemon_List = ["bulbasaur, "ivysaur, "venusaur", "charmander, "charmeleon"]
+        response = requests.get
+def get_pokemon_data(name):
+    "Retrive"
+
+
 
 print(x.text)
+
