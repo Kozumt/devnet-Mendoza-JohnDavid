@@ -72,4 +72,6 @@ def play():
         except requests.exceptions.RequestException:
             print("Wrong guess! (Could not verify the name due to a network error.)")
 
+    print(f"\nOut of attempts! The Pokemon was {pokemon['name'].capitalize()}.")
+
         
