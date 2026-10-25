@@ -74,4 +74,15 @@ def play():
 
     print(f"\nOut of attempts! The Pokemon was {pokemon['name'].capitalize()}.")
 
-        
+#While true it repeats game until it break("n")
+def main():
+    while True:
+        play()
+        again = input("\nPlay again? (y/n): ").strip().lower()
+        if again != "y":
+            print("Thanks for playing!")
+            break
+
+#It doesn't work if it doesn't have this line of code
+if __name__ == "__main__":
+    main()
