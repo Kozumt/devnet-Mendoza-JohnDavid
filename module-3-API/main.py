@@ -31,3 +31,16 @@ def get_pokemon(name):
         "weight": data["weight"], 
     }
 
+#Game chooses on pokemon_list, function of guessing round
+def play():
+    answer_name = random.choice(POKEMON_LIST)
+    pokemon = get_pokemon(answer_name)
+
+    if pokemon is None:
+        print("The game need to restart. Please check your connection and try again.")
+        return
+
+    print("=== WHO'S THAT POKEMON? ===")
+    print(f"Height: {pokemon['height'] / 10} m")
+    print(f"Weight: {pokemon['weight'] / 10} kg")
+    print(f"You have {MAX_ATTEMPTS} attempts.\n")
