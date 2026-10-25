@@ -44,3 +44,19 @@ def play():
     print(f"Height: {pokemon['height'] / 10} m")
     print(f"Weight: {pokemon['weight'] / 10} kg")
     print(f"You have {MAX_ATTEMPTS} attempts.\n")
+
+    attempts = 0
+    while attempts < MAX_ATTEMPTS:
+        guess = input(f"Attempt {attempts + 1}/{MAX_ATTEMPTS} - Your guess: ").strip().lower()
+
+#Handles empty input
+        if not guess:
+            print("Please enter a Pokemon name.")
+            continue
+
+ 
+        attempts += 1
+ 
+        if guess == pokemon["name"]:
+            print(f"Correct! It's {pokemon['name'].capitalize()}! You win!")
+            return
