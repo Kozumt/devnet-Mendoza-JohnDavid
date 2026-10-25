@@ -23,4 +23,11 @@ def get_pokemon(name):
         print(f"Could not get data for '{name}' (status code: {response.status_code}).")
         return None
 
+#Json response into python dictionary
+    data = response.json()
+    return {
+        "name": data["name"],
+        "height": data["height"], 
+        "weight": data["weight"], 
+    }
 
