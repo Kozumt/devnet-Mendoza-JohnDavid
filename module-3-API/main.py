@@ -60,3 +60,16 @@ def play():
         if guess == pokemon["name"]:
             print(f"Correct! It's {pokemon['name'].capitalize()}! You win!")
             return
+
+        
+#Handles not existhing pokemon in pokeAPI and wrong guesses
+        try:
+            check = requests.get(f"https://pokeapi.co/api/v2/pokemon/{guess}", timeout=10)
+            if check.status_code == 404:
+                print(f"'{guess}' is not a valid Pokemon name.")
+            else:
+                print("Wrong guess!")
+        except requests.exceptions.RequestException:
+            print("Wrong guess! (Could not verify the name due to a network error.)")
+
+        
